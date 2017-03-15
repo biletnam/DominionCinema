@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<script src=//code.jquery.com/jquery-3.1.1.min.js></script>
+<script src=dom.js></script>
+<title>Napier Cinema</title>
+<link rel=stylesheet href=dom.css>
+</head>
+<body>
+<div id='theatre'>
+<h1>Select Your Seats</h1>
+  <div id=movieInfo>
+    <div><p id=date></p></div>
+    <div><p id=movie></p></div>
+    <div><p id=screen>Showing in </p></div>
+    <div><p id=runTime>Run Time: </p></div>
+    <div><p id=rating>Rating: </p></div>
+  </div>
+  
+  <div><a id=picture></a></div>
+  <div id='txt'>
+  <p>Select the seating that you would like by clicking on the seating plan.</p>
+  <p>Please note that the sofa seating requires two people per sofa in order for the transaction to process.</p>
+  <p>The screen is at the bottom of the seating plan.</p>
+  <p>Full table service is in operation daily between 7.00pm - 8.00pm.</p>
+  </div>
+  <div id='seats'><table class='a' id='theatreTab' style="#313042"></table><div>
+  <center><p>FRONT ROW</p></center>
+  <center><div id='screentag'><p>Screen</p></div></center>
+  <div id='price'></div>
+  <div id='ss'></div>
+  <button id='btn1' type='button'>Next</button>
+  <div id='seatkey'>
+<center><table id='keytab'>
+  <td>
+    <table>
+      <tr>
+        <td><img width='36px' src='images/availableleft.png'>
+        <img width ='36px' src='images/availableright.png'></td>
+      </tr>
+      <tr>
+        <td>First Class<br> Electronic Sofa<br> for Two</td>
+      </tr>
+    </table>
+  </td>
+  <td> 
+    <table>
+      <tr>
+        <td><img width='36px' src='images/availableseat.png'></td>
+      </tr>
+      <tr>
+        <td>First Class<br> Electronic Armchair<br> for One</td>      
+      </tr>
+    </table>
+  </td>
+  <td> 
+    <table>
+      <tr>
+        <td><img width='36px' src='images/takenseat.png'></td>
+      </tr>
+      <tr>
+        <td>Unavailable<br></td>      
+      </tr>
+    </table>
+  </td>
+  <td> 
+    <table>
+      <tr>
+        <td><img width='36px' src='images/selectedseat.png'></td>
+      </tr>
+      <tr>
+        <td>Your Seats</td>      
+      </tr>
+    </table>
+  </td>
+ </tr>
+</table></center>
+
+</body>
+</html>

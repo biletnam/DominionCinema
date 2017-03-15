@@ -1,0 +1,144 @@
+#theatreTab table, #theatreTab td, #theatreTab {
+   background-size: cover;
+   background-color: #313042;
+   padding:10px;
+}
+#theatreTab th{
+    color:white;
+    font-size:14px;
+    border-radius:10px;
+}
+#keytab table, #keytab td, #keytab tr, #keytab th{
+    background-color:white;
+    font-size:12px;
+    border:none;
+    outline:none;
+    border-color:red;
+}
+#screentag{
+    background-color:#4d051c;
+    width:400px;
+    color:white;
+}
+#txt{
+    width:720px;
+    top:300px;
+    position:absolute;
+    text-align:center;
+    left:40px;
+    border-radius:5px;
+    //padding:10px;
+    background-color:lightgray;
+}
+#btn1{
+    background-color:lightblue;
+    right:50px;
+    position:absolute;
+    width:50px;
+}
+body{
+    background-color:black;
+    font-family:Helvetica;
+}
+
+h1{
+    background-color: #800000;
+    color: #ffffff;
+    font-weight: normal;
+}
+td {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #313042;
+}
+
+#picture {
+    padding 20px;
+    max-width:250px;
+    max-height:200px;
+    left:10px;    
+    position:absolute;
+}
+
+#movieInfo {
+    position: absolute;
+    left:200px;
+}
+
+td.selected.left-sofa {
+    background:  url(images/selectedleft.png);
+    height: 15px;
+    width: 15px;
+    background-size: cover;
+}
+
+td.selected.right-sofa {
+    background: url(images/selectedright.png);
+    height: 15px;
+    width: 15px;
+    background-size: cover;
+}
+
+td.taken.right-sofa {
+    background: url(images/takenright.png);
+    height: 15px;
+    width: 15px;
+    background-size: cover;
+}
+
+td.taken.left-sofa {
+    background: url(images/takenleft.png);
+    height: 15px;
+    width: 15px;
+    background-size: cover;
+}
+
+td.free.left-sofa {
+    background: url(images/availableleft.png);
+    height: 15px;
+    width: 15px;
+    background-size: cover;
+}
+
+td.free.right-sofa {
+    background: url(images/availableright.png);
+    height: 15px;
+    width: 15px;
+    background-size: cover;
+}
+
+td.taken.armchair {
+    background: url(images/takenseat.png);
+    height: 15px;
+    width: 15px;
+    background-size: cover;
+}
+
+td.free.armchair {
+    background: url(images/availableseat.png);
+    height: 15px;
+    width: 15px;
+    background-size: cover;
+}
+
+td.selected.armchair {
+    background: transparent url(images/selectedseat.png);
+    height: 15px;
+    width: 15px;
+    background-size: cover;
+}
+
+#seats{
+     padding:20px;
+     position:absolute;
+     top:450px;
+}
+
+#theatre{
+    width:800px;
+    height:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:white;
+    position:relative;
+}
